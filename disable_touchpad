@@ -1,0 +1,2 @@
+#!/bin/bash
+xinput set-prop $( xinput | grep -i "touchpad" | awk '{ print $6 }' | cut -d= -f2 ) "Device Enabled" 0
