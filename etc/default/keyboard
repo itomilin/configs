@@ -1,0 +1,5 @@
+XKBMODEL="pc105"
+XKBLAYOUT="us,ru"
+XKBVARIANT=","
+BACKSPACE="guess"
+XKBOPTIONS="grp:caps_toggle,grp_led:scroll"
