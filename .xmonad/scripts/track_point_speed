@@ -1,0 +1,4 @@
+#!/bin/bash
+# Alternative: echo "250" > /sys/bus/serio/devices/serio2/sensitivity
+
+xinput set-prop "TPPS/2 IBM TrackPoint" "libinput Accel Speed" 1
